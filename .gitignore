@@ -1,0 +1,42 @@
+# OS / Editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# Git / temporary files
+*.tmp
+*.temp
+*.log
+
+# Security tool session files
+*.session
+*.session.properties
+.zap/
+zap-session/
+*.zap
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Node / package artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local exports / temporary scan files
+*.har
+*.pcap
+*.pcapng
+
+# Local Docker / WSL artifacts
+docker-compose.override.yml

@@ -1,0 +1,22 @@
+Project 4 — Nmap Reconnaissance
+Target: 127.0.0.1
+Date: 2026-10-01
+
+Command:
+nmap -p 3000 127.0.0.1
+
+Result:
+PORT     STATE SERVICE
+3000/tcp open  ppp
+
+Command:
+nmap -sV -p 3000 127.0.0.1
+
+Result:
+PORT     STATE SERVICE VERSION
+3000/tcp open  ppp?
+
+Note:
+Nmap did not confidently fingerprint the application service. The target
+was subsequently identified as OWASP Juice Shop through HTTP/browser
+reconnaissance.
